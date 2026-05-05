@@ -18,6 +18,7 @@ cd newproject
 
 mkdir analysis output
 touch README.md
+echo "# Project Name: DSI Consulting Inc." > README.md
 touch analysis/main.py
 
 # download client data
@@ -28,11 +29,7 @@ mkdir data
 
 mv rawdata data
 
-cd data
-
-mv rawdata raw
-
-cd ..
+mv data/rawdata data/raw
 
 mkdir data/processed
 
